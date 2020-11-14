@@ -15,3 +15,7 @@ una de las operaciones que realiza
 
 El script Iconos.py almacena todos los datos de almacenamiento de imagenes en formato png, esto para que el script interfaz presente ciertas caracteristicas
 como los iconos de los botones
+
+En el siguiente link: https://drive.google.com/drive/folders/1lF3uphLzl5kiW5epyTJtMrDbsZq8xUJi?usp=sharing 
+encontrara alojado un archivo llamado "Calculadora_Edwin_Franco.exe" el cual es un ejecutable descargalble de
+la calculadora, adicionalmente encontrara un video de la calculadora funcionando.
