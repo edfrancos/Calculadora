@@ -23,6 +23,16 @@ class Funciones_calculadora(QMainWindow):
         self.ui.vsd_final_intervalo.valueChanged.connect(self.mostrar_final)
         self.ui.btn_primos_inter.clicked.connect(self.primos)
 
+    def seleccion_menu(self):
+        combo = self.ui.comboBox.currentIndex()
+        print(combo)
+        if combo == 1:
+            self.ui.stackedWidget.setCurrentWidget(self.ui.page_ecuaciones)
+        elif combo ==2:
+            self.ui.stackedWidget.setCurrentWidget(self.ui.page_pendiente)
+        elif combo ==3:
+            self.ui.stackedWidget.setCurrentWidget(self.ui.page_primos)
+    
     def mostrar_inicio(self,valor):
         self.ui.txt_inicio_intervalo.setText("Inicio intervalo: {}".format(valor))
 
@@ -81,16 +91,8 @@ class Funciones_calculadora(QMainWindow):
             self.advertencias.setIcon(QMessageBox.Critical)
             self.advertencias.setWindowTitle("Error")
             self.advertencias.exec_()
+        M = (y_2-y_1)/(x_2-x_1)
         self.ui.lbl_solucion_pendiente.setText(str(M))
-    def seleccion_menu(self):
-        combo = self.ui.comboBox.currentIndex()
-        print(combo)
-        if combo == 1:
-            self.ui.stackedWidget.setCurrentWidget(self.ui.page_ecuaciones)
-        elif combo ==2:
-            self.ui.stackedWidget.setCurrentWidget(self.ui.page_pendiente)
-        elif combo ==3:
-            self.ui.stackedWidget.setCurrentWidget(self.ui.page_primos)
 
     def cuadratica(self):
         if len(self.ui.txt_cuadratica_a.text()) > 0:
@@ -172,4 +174,3 @@ if __name__ == "__main__":
     ui = Funciones_calculadora()
     ui.show()
     sys.exit(app.exec_())
-
