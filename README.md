@@ -1,7 +1,7 @@
 # Calculadora
 interfaz grafica creada con el modulo de python pyqt5
 
-Creador: Edwin Franco Sánchez
+Creador-Programador: Edwin Franco Sánchez
 
 curso: programación de computadores
 
