@@ -19,3 +19,8 @@ como los iconos de los botones
 En el siguiente link: https://drive.google.com/drive/folders/1lF3uphLzl5kiW5epyTJtMrDbsZq8xUJi?usp=sharing 
 encontrara alojado un archivo llamado "Calculadora_Edwin_Franco.exe" el cual es un ejecutable descargable de
 la calculadora, adicionalmente encontrara un video de la calculadora funcionando.
+
+Se reporta crasheo del ejectubale cuando se ejecutan funciones de un boton, esto posiblemente debido a un error en la creacion 
+del archivo.exe que deriva de un error en la ejecucion de la libreria PyInstall, por ello hasta no solucionar dicho problema el
+ejecutable no sera 100% funcional.
+
