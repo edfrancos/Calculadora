@@ -21,8 +21,9 @@ encontrara alojado un archivo llamado "Calculadora_Edwin_Franco.exe" el cual es 
 la calculadora, adicionalmente encontrara un video de la calculadora funcionando.
 
 Vitacora:
-Se reporta crasheo del ejectubale cuando se ejecutan funciones de un boton, esto posiblemente debido a un error en la creacion 
+--Se reporta crasheo del ejectubale cuando se ejecutan funciones de un boton, esto posiblemente debido a un error en la creacion 
 del archivo.exe que deriva de un error en la ejecucion de la libreria PyInstall, por ello hasta no solucionar dicho problema el
 ejecutable no sera 100% funcional, por ello se denomina al ejecutable inicial, "Calculadora_Edwin_Franco_alfa_0.1.exe" .
 
-Despues de realizr debug a los scripts que conforman el progragrama se logro solucionar un problema relacionado con el crasheo del mismo, generando la segunda version de la beta del programa "Calculadora_Edwin_Franco_alfa_0.2.exe", un cambio adicional para la segunda version de la betha fue la implementacion de un icono (cal_1.ico) que se enseña en la vista previa del ejecutable; sin embargo, se genero otro crasheo que ocurre siempre al finalizar la ejecucion de los objetos pertenecientes a la clase QMesaggeBox, este se solucionara en versiones alfa posteriores del programa.
+--Despues de realizr debug a los scripts que conforman el progragrama se logro solucionar un problema relacionado con el crasheo del mismo, generando la segunda version de la beta del programa "Calculadora_Edwin_Franco_alfa_0.2.exe", un cambio adicional para la segunda version de la betha fue la implementacion de un icono (cal_1.ico) que se enseña en la vista previa del ejecutable. Adicionalmente, se agrego en el repositorio un video con una pequeña y breve vista previa de la ejecucion del programa llamada "Version_prueba_alfa 0.2.mp4"  
+--Se reporta un nuevo crasheo que ocurre siempre que se finaliza la ejecucion de los objetos pertenecientes a la clase QMesaggeBox, este se solucionara en versiones alfa posteriores del programa.
