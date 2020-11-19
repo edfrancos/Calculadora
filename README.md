@@ -1,4 +1,4 @@
-# Calculadora
+# Calculadora-Edwin Franco
 interfaz grafica creada con el modulo de python pyqt5
 
 Creador-Programador: Edwin Franco Sánchez
