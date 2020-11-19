@@ -23,6 +23,6 @@ la calculadora, adicionalmente encontrara un video de la calculadora funcionando
 Vitacora:
 Se reporta crasheo del ejectubale cuando se ejecutan funciones de un boton, esto posiblemente debido a un error en la creacion 
 del archivo.exe que deriva de un error en la ejecucion de la libreria PyInstall, por ello hasta no solucionar dicho problema el
-ejecutable no sera 100% funcional.
+ejecutable no sera 100% funcional, por ello se denomina al ejecutable inicial, "Calculadora_Edwin_Franco_alfa_0.1.exe" .
 
-Despues de realizr debug a los scripts que conforman el progragrama se logro solucionar un problema relacionado con el crasheo del mismo; sin embargo, se genero otro crasheo que ocurre siempre al finalizar
+Despues de realizr debug a los scripts que conforman el progragrama se logro solucionar un problema relacionado con el crasheo del mismo, generando la segunda version de la beta del programa "Calculadora_Edwin_Franco_alfa_0.2.exe"; sin embargo, se genero otro crasheo que ocurre siempre al finalizar la ejecucion de los objetos pertenecientes a la clase QMesaggeBox, este se solucionara en versiones alfa posteriores del programa.
